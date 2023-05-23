@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: heartbid.sg/1
-        image: <your-image-name>
+        image: c0-deeplearning-common-cpu-v20230501-debian-10
         env:
         - name: VERTEX_AI
           value: <your-Vertex-AI-value>
