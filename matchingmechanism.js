@@ -17,7 +17,7 @@ const options = {
         outputUriPrefix: 'gs://YOUR_BUCKET_NAME/YOUR_OUTPUT_FOLDER'
       }
     },
-    model: 'projects/YOUR_PROJECT_ID/locations/YOUR_LOCATION_ID/models/YOUR_MODEL_ID',
+    model: 'projects/amiable-bonus-387606/locations/YOUR_LOCATION_ID/models/YOUR_MODEL_ID',
     params: {
       scoreThreshold: '0.5'
     }
