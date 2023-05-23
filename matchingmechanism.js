@@ -17,7 +17,7 @@ const options = {
         outputUriPrefix: 'gs://hmb1/result'
       }
     },
-    model: 'projects/amiable-bonus-387606/locations/us-central2/models/423958291212934349',
+    model: 'projects/amiable-bonus-387606/locations/us-east1/models/423958291212934349',
     params: {
       scoreThreshold: '0.5'
     }
