@@ -3,7 +3,7 @@ const options = {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
-    Authorization: 'Bearer YOUR_AUTH_TOKEN'
+    Authorization: 'Bearer PLS_REQUEST_GENERATED_TOKEN_BY_MANAGEMENT'
   },
   body: JSON.stringify({
     inputConfig: {
