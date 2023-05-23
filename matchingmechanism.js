@@ -25,7 +25,7 @@ const options = {
 };
 
 // Make the API request
-fetch('https://automl.googleapis.com/v1beta1/YOUR_NAME:batchPredict', options)
+fetch('https://automl.googleapis.com/v1beta1/onemillionyearslater:batchPredict', options)
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error(error));
