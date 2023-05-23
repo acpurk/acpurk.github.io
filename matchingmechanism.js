@@ -14,7 +14,7 @@ const options = {
     },
     outputConfig: {
       gcsDestination: {
-        outputUriPrefix: 'gs://hmb1/YOUR_OUTPUT_FOLDER'
+        outputUriPrefix: 'gs://hmb1/result'
       }
     },
     model: 'projects/amiable-bonus-387606/locations/YOUR_LOCATION_ID/models/YOUR_MODEL_ID',
