@@ -8,13 +8,13 @@ const options = {
   body: JSON.stringify({
     inputConfig: {
       gcsSource: {
-        inputUris: ['gs://YOUR_BUCKET_NAME/YOUR_FILE_NAME.csv']
+        inputUris: ['gs://hmb1/YOUR_FILE_NAME.csv']
       },
       dataType: 'CSV'
     },
     outputConfig: {
       gcsDestination: {
-        outputUriPrefix: 'gs://YOUR_BUCKET_NAME/YOUR_OUTPUT_FOLDER'
+        outputUriPrefix: 'gs://hmb1/YOUR_OUTPUT_FOLDER'
       }
     },
     model: 'projects/amiable-bonus-387606/locations/YOUR_LOCATION_ID/models/YOUR_MODEL_ID',
