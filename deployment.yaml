@@ -1,24 +1,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: match
+  name: acpurk.github.io
   labels:
-    app: match
+    app: acpurk.github.io
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: match
+      app: acpurk.github.io
   template:
     metadata:
       labels:
-        app: match
+        app: acpurk.github.io
     spec:
       containers:
       - name: heartbid.sg/1
         image: c0-deeplearning-common-cpu-v20230501-debian-10
         env:
         - name: VERTEX_AI
-          value: <your-Vertex-AI-value>
+          value: aiplatform.googleapis.com
         - name: AUTOML_PREDICTION_API
-          value: <your-AutoML-API-value>
+          value: automl.googleapis.com
