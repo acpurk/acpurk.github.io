@@ -3,3 +3,4 @@
 
 URL to the live working environment here
 
+To enable AI matching mechanism for testing, please request management for authorization token.
