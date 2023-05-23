@@ -18,8 +18,6 @@ spec:
       - name: <your-container-name>
         image: <your-image-name>
         env:
-        - name: ORACLE_APEX
-          value: <your-Oracle-APEX-value>
         - name: VERTEX_AI
           value: <your-Vertex-AI-value>
         - name: AUTOML_PREDICTION_API
