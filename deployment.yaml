@@ -15,7 +15,7 @@ spec:
         app: match
     spec:
       containers:
-      - name: <your-container-name>
+      - name: heartbid.sg/1
         image: <your-image-name>
         env:
         - name: VERTEX_AI
