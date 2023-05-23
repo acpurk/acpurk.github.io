@@ -3,5 +3,5 @@
 <p> To enable AI matching mechanism for testing, please request management for authorization token. </p>
 
 <div>
-  <p>https://github.com/acpurk/MATCH.git/index.html</p>
+  <p>https://github.com/acpurk/MATCH.git/charitiesform.html</p>
 </div>
