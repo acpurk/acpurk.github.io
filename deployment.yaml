@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: acpurk.github.io
+  name: match
   labels:
-    app: acpurk.github.io
+    app: match
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: acpurk.github.io
+      app: match
   template:
     metadata:
       labels:
-        app: acpurk.github.io
+        app: match
     spec:
       containers:
       - name: <your-container-name>
