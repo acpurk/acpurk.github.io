@@ -8,7 +8,7 @@ const options = {
   body: JSON.stringify({
     inputConfig: {
       gcsSource: {
-        inputUris: ['gs://hmb1/YOUR_FILE_NAME.csv']
+        inputUris: ['gs://hmb1/h1.csv']
       },
       dataType: 'CSV'
     },
